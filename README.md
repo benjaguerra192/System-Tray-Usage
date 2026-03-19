@@ -6,7 +6,6 @@ A lightweight system monitor that lives in your system tray.
 
 - RAM usage monitoring
 - CPU usage display
-- Disk space tracking
 - Runs silently in system tray
 - Starts automatically with Windows
 
