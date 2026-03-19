@@ -13,26 +13,21 @@ A lightweight system monitor that lives in your system tray.
 ## Installation
 
 1. Install Python 3.8+
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run `install_startup.bat` as Administrator to enable auto-start
-4. Run `start_tray_manager.bat` to launch
+2. run the add_to_start.bat
 
 ## Files
 
 | File | Purpose |
 |------|---------|
-| `tray_manager.py` | Main application |
-| `start_tray_manager.bat` | Launch script |
-| `install_startup.bat` | Enable auto-start with Windows |
-| `config.json` | User settings |
+| `systray_monitor.py` | Main application |
+| `start_monitor.bat` | Launch script |
+| `add_to_start.bat` | Enable auto-start with Windows |
 
 ## Usage
 
-- Left click: Show detailed stats
-- Right click: Menu (Settings / Exit)
+- If you hover over it, it shows if it is CPU or RAM and percentage, but it already show percentage without need to hover
 
 ## Requirements
 
 - Windows 10/11
 - Python 3.8+
-- psutil, pystray, Pillow
